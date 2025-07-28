@@ -95,6 +95,23 @@ img {
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
+.gallery
+{
+  margin: 10px 50px;
+}
+.gallery img
+{
+  width: 220px;
+  height: 150px;
+  padding: 05px;
+  filter: grayscale(100%);
+  transition: 0.2s,
+}
+.gallery img:hover
+{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
 
 /*===== LAYOUT =====*/
 .bd-grid {
